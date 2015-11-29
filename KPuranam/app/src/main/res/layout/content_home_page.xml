@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_home_page"
+    tools:context="com.dd.devotional.karthikapuranamu.HomePage"
+    android:background="#adf89a43">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <Button
+                    android:text="కార్తీక పురాణం" android:layout_width="fill_parent"  android:textStyle="bold"
+                    android:layout_height="wrap_content"  android:paddingBottom="10px"  android:background="#d7933a" android:id="@+id/labels"   android:textSize="30dip"
+                    android:textColor="#ffffff" />
+
+                <Button android:text="@string/mainList_item1" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:onClick="showAdhyay" android:tag="ad_1"    android:id="@+id/ad1" android:paddingBottom="5px"  android:background="#d7933a" />
+
+                <Button android:text="@string/mainList_item2" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_2"
+                    android:layout_height="wrap_content" android:id="@+id/ad2" android:paddingBottom="5px"  android:background="#d7933a"  />
+
+                <Button android:text="@string/mainList_item3" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_3"
+                    android:layout_height="wrap_content" android:id="@+id/ad3" android:paddingBottom="5px"  android:background="#d7933a" />
+
+                <Button android:text="@string/mainList_item4" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_4"
+                    android:layout_height="wrap_content" android:id="@+id/ad4" android:paddingBottom="5px"  android:background="#d7933a" />
+
+                <Button android:text="@string/mainList_item5" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_5"
+                    android:layout_height="wrap_content" android:id="@+id/ad5" android:paddingBottom="5px"  android:background="#d7933a" />
+
+                <Button android:text="@string/mainList_item6" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_6"
+                    android:layout_height="wrap_content" android:id="@+id/ad6" android:paddingBottom="5px"  android:background="#d7933a" />
+
+                <Button android:text="@string/mainList_item7" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_7"
+                    android:layout_height="wrap_content" android:id="@+id/ad7" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item8" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_8"
+                    android:layout_height="wrap_content" android:id="@+id/ad8" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item9" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_9"
+                    android:layout_height="wrap_content" android:id="@+id/ad9" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item10" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_10"
+                    android:layout_height="wrap_content" android:id="@+id/ad10" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item11" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_11"
+                    android:layout_height="wrap_content" android:id="@+id/ad11" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item12" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_12"
+                    android:layout_height="wrap_content" android:id="@+id/ad12" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item13" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_13"
+                    android:layout_height="wrap_content" android:id="@+id/ad13" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item14" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_14"
+                    android:layout_height="wrap_content" android:id="@+id/ad14" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item15" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_15"
+                    android:layout_height="wrap_content" android:id="@+id/ad15" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item16" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_16"
+                    android:layout_height="wrap_content" android:id="@+id/ad16" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item17" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_17"
+                    android:layout_height="wrap_content" android:id="@+id/ad17" android:paddingBottom="5px"  android:background="#d7933a" />
+
+                <Button android:text="@string/mainList_item18" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_18"
+                    android:layout_height="wrap_content" android:id="@+id/ad18" android:paddingBottom="5px"  android:background="#d7933a" />
+
+                <Button android:text="@string/mainList_item19" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_19"
+                    android:layout_height="wrap_content" android:id="@+id/ad19" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item20" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_20"
+                    android:layout_height="wrap_content" android:id="@+id/ad20" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item21" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_21"
+                    android:layout_height="wrap_content" android:id="@+id/ad21" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item22" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_22"
+                    android:layout_height="wrap_content" android:id="@+id/ad22" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item23" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_23"
+                    android:layout_height="wrap_content" android:id="@+id/ad23" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item24" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_24"
+                    android:layout_height="wrap_content" android:id="@+id/ad24" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item25" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_25"
+                    android:layout_height="wrap_content" android:id="@+id/ad25" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item26" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_26"
+                    android:layout_height="wrap_content" android:id="@+id/ad26" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item27" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_27"
+                    android:layout_height="wrap_content" android:id="@+id/ad27" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+                <Button android:text="@string/mainList_item28" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_28"
+                    android:layout_height="wrap_content" android:id="@+id/ad28" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+
+                <Button android:text="@string/mainList_item29" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_29"
+                    android:layout_height="wrap_content" android:id="@+id/ad29" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+
+                <Button android:text="@string/mainList_item30" android:layout_width="fill_parent" android:onClick="showAdhyay" android:tag="ad_30"
+                    android:layout_height="wrap_content" android:id="@+id/ad30" android:paddingBottom="5px"  android:background="#d7933a" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </ScrollView>
+</RelativeLayout>

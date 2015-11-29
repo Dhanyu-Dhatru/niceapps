@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Karthika Puranamu</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="mainList_item1">అధ్యాయం-1</string>
+    <string name="mainList_item2">అధ్యాయం-2</string>
+    <string name="mainList_item3">అధ్యాయం-3</string>
+    <string name="mainList_item4">అధ్యాయం-4</string>
+    <string name="mainList_item5">అధ్యాయం-5</string>
+    <string name="mainList_item6">అధ్యాయం-6</string>
+    <string name="mainList_item7">అధ్యాయం-7</string>
+    <string name="mainList_item8">అధ్యాయం-8</string>
+    <string name="mainList_item9">అధ్యాయం-9</string>
+    <string name="mainList_item10">అధ్యాయం-10</string>
+    <string name="mainList_item11">అధ్యాయం-11</string>
+    <string name="mainList_item12">అధ్యాయం-12</string>
+    <string name="mainList_item13">అధ్యాయం-13</string>
+    <string name="mainList_item14">అధ్యాయం-14</string>
+    <string name="mainList_item15">అధ్యాయం-15</string>
+    <string name="mainList_item16">అధ్యాయం-16</string>
+    <string name="mainList_item17">అధ్యాయం-17</string>
+    <string name="mainList_item18">అధ్యాయం-18</string>
+    <string name="mainList_item19">అధ్యాయం-19</string>
+    <string name="mainList_item20">అధ్యాయం-20</string>
+    <string name="mainList_item21">అధ్యాయం-21</string>
+    <string name="mainList_item22">అధ్యాయం-22</string>
+    <string name="mainList_item23">అధ్యాయం-23</string>
+    <string name="mainList_item24">అధ్యాయం-24</string>
+    <string name="mainList_item25">అధ్యాయం-25</string>
+    <string name="mainList_item26">అధ్యాయం-26</string>
+    <string name="mainList_item27">అధ్యాయం-27</string>
+    <string name="mainList_item28">అధ్యాయం-28</string>
+    <string name="mainList_item29">అధ్యాయం-29</string>
+    <string name="mainList_item30">అధ్యాయం-30</string>
+    <string name="title_activity_display_chapter">Back to Home</string>
+
+
+    <!-- Fonts -->
+    <string name="font_largest">Font-Largest</string>
+    <string name="font_larger">Font-Larger</string>
+    <string name="font_normal">Font-Normal</string>
+    <string name="font_small">Font-Small</string>
+    <string name="font_smaller">Font-Smaller</string>
+    <string name="title_activity_display_adhyay">DisplayAdhyay</string>
+
+</resources>
